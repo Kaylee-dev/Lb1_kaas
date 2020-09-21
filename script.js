@@ -13,8 +13,8 @@ else if (cheeseholes == "nee") {
 	var cheeshard = prompt("Is de kaas hard als steen?")
 }
 if (cheeseExpensive == "ja") {
-	alert("Uw kaas is een Emmenthaler");
+	alert("Uw kaas is een Emmenthaler")
 }
 else if (cheeseExpensive == "nee") {
-	alert("Uw kaas is een Leerdammer");
+	alert("Uw kaas is een Leerdammer")
 }
