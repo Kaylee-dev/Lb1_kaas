@@ -1,5 +1,7 @@
 var cheeseColor = prompt("Is de kaas geel?");
 cheeseColor = cheeseColor.toLowerCase();
+// .toLowerCase zorgt ervoor dat de gebruiker kleine letters en hoofdletters kan invullen en dan blijft hij het gewoon doen.
+//Doordat hij alles omzet in kleine letters
 
 if (cheeseColor == "ja") {
 	var cheeseholes = prompt("Zitten er gaten in?");
@@ -16,12 +18,12 @@ if (cheeseColor == "ja") {
 		}
 
 	} else if (cheeseholes == "nee") {
-		var cheesHard = prompt("Is de kaas hard als steen?");
-		cheesHard = cheesHard.toLowerCase();
+		var cheeseHard = prompt("Is de kaas hard als steen?");
+		cheeseHard = cheeseHard.toLowerCase();
 
 		if (cheeseHard == "ja") {
 			alert("Uw kaas is een Pamigiano Reggiano");
-		} else if (cheesHard == "nee") {
+		} else if (cheeseHard == "nee") {
 			alert("Uw kaas is een Goudse kaas");
 		}
 	}
