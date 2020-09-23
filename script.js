@@ -13,8 +13,10 @@ if (cheeseColor == "ja") {
 
 		if (cheeseExpensive == "ja") {
 			alert("Uw kaas is een Emmenthaler");
+			document.write("Emmenthaler");
 		} else if (cheeseExpensive == "nee") {
 			alert("Uw kaas is een Leerdammer");
+			document.write("Leerdammer");
 		}
 
 	} else if (cheeseholes == "nee") {
@@ -23,8 +25,10 @@ if (cheeseColor == "ja") {
 
 		if (cheeseHard == "ja") {
 			alert("Uw kaas is een Pamigiano Reggiano");
+			document.write("Pamigiano Reggiano");
 		} else if (cheeseHard == "nee") {
 			alert("Uw kaas is een Goudse kaas");
+			document.write("Goudse kaas");
 		}
 	}
 } else if(cheeseColor == "nee") {
@@ -37,8 +41,10 @@ if (cheeseColor == "ja") {
 
 		if (cheeseCrust == "ja") {
 			alert("Uw kaas is een Blue de Rochbaron");
+			document.write("Blue de Rochbaron");
 		} else if (cheeseCrust == "nee") {
 			alert("Uw kaas is een Foume d'Ambert");
+			document.write("Foume d'Ambert");
 		}
 	} else if (cheeseBlue == "nee") {
 		var cheeseCrust = prompt("Heeft de kaas een korst?");
@@ -46,9 +52,11 @@ if (cheeseColor == "ja") {
 
 		if (cheeseCrust == "ja") {
 			alert("Uw kaas is een Camembert");
+			document.write("Camembert");
 		
 		} else if (cheeseCrust == "nee") {
 			alert("Uw kaas is een Mozzarella");
+			document.write("Mozzarella");
 		}
 	}
 }
