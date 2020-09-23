@@ -46,6 +46,7 @@ if (cheeseColor == "ja") {
 
 		if (cheeseCrust == "ja") {
 			alert("Uw kaas is een Camembert");
+		
 		} else if (cheeseCrust == "nee") {
 			alert("Uw kaas is een Mozzarella");
 		}
